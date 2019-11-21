@@ -44,7 +44,7 @@ namespace курсач
             restoreb.Enabled = true;
             myClass = new MYCLASS();
             Bitmap NewBitmap = new Bitmap(width, height);
-            int count = 10000; // Нужно задать количество точек, сколько останется на фото для последующего восстановления
+            int count = 2500; // Нужно задать количество точек, сколько останется на фото для последующего восстановления
             Color color = new Color();
             color = Color.FromArgb(255, 255, 255);
             Random rand = new Random();
